@@ -1,6 +1,6 @@
 ---
 name: Acme-Colour-Fuzzy
-version: 0.01
+version: 0.02
 author:
   - 'Mattia Barbon <mbarbon@cpan.org>'
 abstract: give names to arbitrary RGB triplets
@@ -9,7 +9,8 @@ resources:
   license: http://dev.perl.org/licenses/
 requires:
   Class::Accessor: 0.30
-  Color::Similarity::HCL: 0.01
+  Color::Similarity: 0.01
+  Color::Similarity::HCL: 0.03
   Graphics::ColorNames: 1.00
   Graphics::ColorNames::VACCC: 1.00
   List::Util: 0.01
@@ -19,8 +20,8 @@ requires:
 provides:
   Acme::Colour::Fuzzy:
     file: lib/Acme/Colour/Fuzzy.pm
-    version: 0.01
-generated_by: Module::Build version 0.2806
+    version: 0.02
+generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2
